@@ -1,0 +1,46 @@
+/* Používáme intuitivní výpočet rozměrů prvků. */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form__label {
+  margin-bottom: 0.3125rem;
+  display: block;
+  color: gray;
+  font-size: 18px;
+}
+
+.form__input {
+  border: 1px solid gray;
+  font-size: 18px;
+}
+
+.form__button {
+  margin-top: 1.25rem;
+  padding: 0.625rem;
+	border: 0;
+	border-radius: 5px;
+	background-color: #13529e;
+	color: white;
+  font-size: 16px;
+	text-transform: uppercase;
+}
+
+.form__button:hover {
+  background-color: #083872;
+}
+
+.required {
+  color: red;
+}
